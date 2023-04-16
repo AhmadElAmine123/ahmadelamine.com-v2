@@ -1,0 +1,28 @@
+{
+    "website": {
+        "title": "My Portfolio"
+      },
+      "nav": {
+        "home": "Home",
+        "about": "About Me",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact": "Contact Me"
+      },
+    "home": {
+      "welcome": "Welcome to my portfolio! I'm Ahmad, a passionate web developer and computer science graduate from U1 in Beirut. Explore my work and discover how I can help bring your projects to life."
+    },
+    "about": {
+      "intro": "I'm a Lebanese computer science graduate from U1 in Beirut with a strong passion for web development. I completed my degree while working as a computer science teacher for kids. I have experience in various programming languages and have even had the opportunity to teach web development to over 200 people in Sierra Leone. Now based in Beirut, I'm looking to expand my horizons and find new opportunities abroad."
+    },
+    "skills": {
+      "description": "I have a diverse set of skills in programming languages, web development, data science, machine learning, DevOps, and application development. While I have a strong foundation in many areas, I'm always eager to learn and grow. Check out my skills below:"
+    },
+    "portfolio": {
+      "description": "Discover some of my best projects, showcasing my experience in web development, e-commerce, and more. Click on the images below to learn more about each project, including the technologies used and links to live demos or GitHub repositories."
+    },
+    "contact": {
+      "description": "Ready to work together or have any questions? Get in touch using the contact form below or connect with me on LinkedIn, GitHub, and other social media platforms."
+    }
+  }
+  

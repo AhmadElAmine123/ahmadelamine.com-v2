@@ -1,0 +1,28 @@
+{
+    "website": {
+      "title": "Ahmad Elamines Portfolio"
+    },
+    "navigation": {
+      "home": "Startseite",
+      "about": "Über mich",
+      "skills": "Fähigkeiten",
+      "portfolio": "Portfolio",
+      "contact": "Kontaktieren Sie mich"
+    },
+    "home": {
+      "welcome": "Willkommen in meinem Portfolio! Ich bin Ahmad, ein leidenschaftlicher Webentwickler und Informatik-Absolvent von der U1 in Beirut. Entdecken Sie meine Arbeit und erfahren Sie, wie ich Ihnen helfen kann, Ihre Projekte zum Leben zu erwecken."
+    },
+    "about": {
+      "intro": "Ich bin ein libanesischer Informatik-Absolvent der U1 in Beirut mit einer starken Leidenschaft für Webentwicklung. Ich habe meinen Abschluss gemacht, während ich als Informatiklehrer für Kinder gearbeitet habe. Ich habe Erfahrung in verschiedenen Programmiersprachen und hatte sogar die Gelegenheit, Webentwicklung für über 200 Menschen in Sierra Leone zu unterrichten. Jetzt in Beirut ansässig, möchte ich meinen Horizont erweitern und neue Möglichkeiten im Ausland finden."
+    },
+    "skills": {
+      "description": "Ich verfüge über ein vielfältiges Fähigkeitsspektrum in Programmiersprachen, Webentwicklung, Data Science, maschinellem Lernen, DevOps und Anwendungsentwicklung. Obwohl ich in vielen Bereichen eine solide Grundlage habe, bin ich immer bestrebt, zu lernen und zu wachsen. Sehen Sie sich meine Fähigkeiten unten an:"
+    },
+    "portfolio": {
+      "description": "Entdecken Sie einige meiner besten Projekte, die meine Erfahrung in Webentwicklung, E-Commerce und mehr zeigen. Klicken Sie auf die Bilder unten, um mehr über jedes Projekt zu erfahren, einschließlich der verwendeten Technologien und Links zu Live-Demos oder GitHub-Repositories."
+    },
+    "contact": {
+      "description": "Bereit, zusammenzuarbeiten oder Fragen zu stellen? Nehmen Sie Kontakt auf, indem Sie das Kontaktformular unten verwenden oder sich mit mir auf LinkedIn, GitHub und anderen sozialen Medien vernetzen."
+    }
+  }
+  

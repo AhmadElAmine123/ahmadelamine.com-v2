@@ -1,0 +1,28 @@
+{
+    "website": {
+      "title": "Portafolio de Ahmad Elamine"
+    },
+    "navigation": {
+      "home": "Inicio",
+      "about": "Acerca de mí",
+      "skills": "Habilidades",
+      "portfolio": "Portafolio",
+      "contact": "Contáctame"
+    },
+    "home": {
+      "welcome": "¡Bienvenido a mi portafolio! Soy Ahmad, un apasionado desarrollador web y graduado en ciencias de la computación de la U1 en Beirut. Explora mi trabajo y descubre cómo puedo ayudarte a dar vida a tus proyectos."
+    },
+    "about": {
+      "intro": "Soy un graduado libanés en ciencias de la computación de la U1 en Beirut con una fuerte pasión por el desarrollo web. Completé mi carrera mientras trabajaba como profesor de ciencias de la computación para niños. Tengo experiencia en varios lenguajes de programación e incluso he tenido la oportunidad de enseñar desarrollo web a más de 200 personas en Sierra Leona. Ahora radicado en Beirut, estoy buscando ampliar mis horizontes y encontrar nuevas oportunidades en el extranjero."
+    },
+    "skills": {
+      "description": "Tengo un conjunto diverso de habilidades en lenguajes de programación, desarrollo web, ciencia de datos, aprendizaje automático, DevOps y desarrollo de aplicaciones. Si bien tengo una base sólida en muchas áreas, siempre estoy ansioso por aprender y crecer. Consulta mis habilidades a continuación:"
+    },
+    "portfolio": {
+      "description": "Descubre algunos de mis mejores proyectos, que muestran mi experiencia en desarrollo web, comercio electrónico y más. Haz clic en las imágenes a continuación para obtener más información sobre cada proyecto, incluidas las tecnologías utilizadas y los enlaces a demostraciones en vivo o repositorios de GitHub."
+    },
+    "contact": {
+      "description": "¿Listo para trabajar juntos o tienes alguna pregunta? Ponte en contacto utilizando el formulario de contacto a continuación o conéctate conmigo en LinkedIn, GitHub y otras plataformas de redes sociales."
+    }
+  }
+  

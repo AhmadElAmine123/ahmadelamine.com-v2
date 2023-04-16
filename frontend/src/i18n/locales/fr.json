@@ -1,0 +1,28 @@
+{
+    "website": {
+      "title": "Portfolio d'Ahmad Elamine"
+    },
+    "navigation": {
+      "home": "Accueil",
+      "about": "À propos de moi",
+      "skills": "Compétences",
+      "portfolio": "Portfolio",
+      "contact": "Me contacter"
+    },
+    "home": {
+      "welcome": "Bienvenue sur mon portfolio ! Je suis Ahmad, un développeur web passionné et diplômé en informatique de l'U1 à Beyrouth. Parcourez mon travail et découvrez comment je peux vous aider à donner vie à vos projets."
+    },
+    "about": {
+      "intro": "Je suis un diplômé libanais en informatique de l'U1 à Beyrouth avec une forte passion pour le développement web. J'ai terminé mes études tout en travaillant en tant que professeur d'informatique pour enfants. J'ai de l'expérience dans plusieurs langages de programmation et j'ai même eu l'occasion d'enseigner le développement web à plus de 200 personnes en Sierra Leone. Maintenant basé à Beyrouth, je cherche à élargir mes horizons et à trouver de nouvelles opportunités à l'étranger."
+    },
+    "skills": {
+      "description": "J'ai un ensemble diversifié de compétences en langages de programmation, développement web, science des données, apprentissage automatique, DevOps et développement d'applications. Bien que j'aie une base solide dans de nombreux domaines, je suis toujours avide d'apprendre et de grandir. Consultez mes compétences ci-dessous:"
+    },
+    "portfolio": {
+      "description": "Découvrez certains de mes meilleurs projets, illustrant mon expérience en développement web, commerce électronique et plus encore. Cliquez sur les images ci-dessous pour en savoir plus sur chaque projet, y compris les technologies utilisées et les liens vers des démonstrations en direct ou des référentiels GitHub."
+    },
+    "contact": {
+      "description": "Prêt à travailler ensemble ou avez des questions ? Contactez-moi en utilisant le formulaire de contact ci-dessous ou connectez-vous avec moi sur LinkedIn, GitHub et d'autres plateformes de réseaux sociaux."
+    }
+  }
+  
