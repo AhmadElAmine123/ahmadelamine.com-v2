@@ -1,17 +1,55 @@
 import React from 'react';
-import { Container, Heading, Text } from './AboutMe.styles';
+import {
+  AboutMeContainer,
+  LeftColumn,
+  ProfilePicture,
+  SocialIcons,
+  SocialIcon,
+  RightColumn,
+  AboutMeTitle,
+  AboutMeText,
+  SectionTitle,
+  TextOnlyDesktop
+} from './AboutMe.styles';
+import { useTranslation } from 'react-i18next';
 
-import PageWrapper from '../../components/shared/PageWrapper';
-const AboutMe = () => {
+// Replace with the actual profile picture URL
+const profilePictureUrl = 'path/to/your/profile-picture.jpg';
+
+const AboutMe: React.FC = () => {
+  const { t, i18n } = useTranslation();
   return (
-    <PageWrapper>
-      <Heading>Your Heading Here</Heading>
-      <Text>
-        Your text content goes here. You can use this component to display text
-        with the styles defined in the .styles.ts file.
-      </Text>
-      {/* Add more components and content as needed */}
-    </PageWrapper>
+    <AboutMeContainer>
+      <LeftColumn>
+        <ProfilePicture src={profilePictureUrl} alt="Your Name" />
+        <SocialIcons>
+          {/* Replace with your actual social media URLs */}
+          <SocialIcon href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            {/* Import and use the LinkedIn icon */}
+          </SocialIcon>
+          <SocialIcon href="https://github.com" target="_blank" rel="noopener noreferrer">
+            {/* Import and use the GitHub icon */}
+          </SocialIcon>
+        </SocialIcons>
+      </LeftColumn>
+      <RightColumn>
+        <AboutMeTitle>{t('about.title')}</AboutMeTitle>
+        <AboutMeText>
+          {t('about.intro')}
+        </AboutMeText>
+        <SectionTitle>Experience</SectionTitle>
+        <AboutMeText>
+          {t('about.experience.geek')}
+        </AboutMeText>
+        <TextOnlyDesktop>
+          {t('about.experience.linkit')}
+        </TextOnlyDesktop>
+        <AboutMeText>
+          {t('about.freelance')}
+        </AboutMeText>
+        
+      </RightColumn>
+    </AboutMeContainer>
   );
 };
 

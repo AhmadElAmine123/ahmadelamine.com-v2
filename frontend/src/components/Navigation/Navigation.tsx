@@ -3,7 +3,7 @@ import { Navbar, Nav, Dropdown } from 'react-bootstrap';
 import { FaGlobe } from 'react-icons/fa';
 import './Navbar.styles.ts';
 import { useTranslation } from 'react-i18next';
-import {StyledNavbar} from './Navigation.styles';
+import { StyledNavbar ,BrandStyle, StyledLink, Globe, DropDownStyled, DropDownMenuStyled, CollapseStyled} from './Navigation.styles';
 
 
 interface NavigationProps {
@@ -34,34 +34,34 @@ const Navigation: React.FC<NavigationProps> = ({
 
 
   return (
-    <StyledNavbar bg="light" expand="lg" fixed="top">
-      <Navbar.Brand onClick={() => scrollToRef(homeRef)}>
+    <StyledNavbar expand="lg" fixed="top">
+      <BrandStyle onClick={() => scrollToRef(homeRef)}>
           {t('website.title')}
-      </Navbar.Brand>
+      </BrandStyle>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <CollapseStyled id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link onClick={() => scrollToRef(homeRef)}>
+          <StyledLink onClick={() => scrollToRef(homeRef)}>
           {t('nav.home')}
-          </Nav.Link>
-          <Nav.Link onClick={() => scrollToRef(aboutMeRef)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollToRef(aboutMeRef)}>
           {t('nav.about')}
-          </Nav.Link>
-          <Nav.Link onClick={() => scrollToRef(skillsRef)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollToRef(skillsRef)}>
           {t('nav.skills')}
-          </Nav.Link>
-          <Nav.Link onClick={() => scrollToRef(portfolioRef)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollToRef(portfolioRef)}>
           {t('nav.portfolio')}
-          </Nav.Link>
-          <Nav.Link onClick={() => scrollToRef(contactRef)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollToRef(contactRef)}>
           {t('nav.contact')}
-          </Nav.Link>
+          </StyledLink>
         </Nav>
         <Dropdown>
-          <Dropdown.Toggle variant="outline-secondary">
-            <FaGlobe />
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
+          <DropDownStyled variant="outline-secondary">
+            <Globe />
+          </DropDownStyled>
+          <DropDownMenuStyled>
             <Dropdown.Item onClick={() => changeLanguage('en')}>
               English
             </Dropdown.Item>
@@ -74,9 +74,9 @@ const Navigation: React.FC<NavigationProps> = ({
             <Dropdown.Item onClick={() => changeLanguage('es')}>
               Español
             </Dropdown.Item>
-          </Dropdown.Menu>
+          </DropDownMenuStyled>
         </Dropdown>
-      </Navbar.Collapse>
+      </CollapseStyled>
     </StyledNavbar>
   );
 };

@@ -1,24 +1,33 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { Container } from "react-bootstrap";
 
-export const Container = styled.div`
+export const SkillsWrapper = styled.div`
+  padding: 2rem 0;
+`;
+
+export const AccordionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  gap: 1rem;
+
+  @media (max-width: 765px) {
+    &:first-child {
+      margin-bottom: 2rem;
+    }
+  }
 `;
 
-export const Heading = styled.h1`
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 1rem;
+export const SkillsTitle = styled.h2`
+  font-size: 32px;
+  font-weight: bold;
+  color: #29A0B1;
+  margin-bottom: 20px;
+  margin-left:2vw;
 `;
 
-export const Text = styled.p`
-  font-size: 1rem;
-  color: #666;
+export const SkillsText = styled.p`
+  font-size: 18px;
   line-height: 1.5;
-  text-align: justify;
+  color: #167D7F;
+  margin-left:2vw;
 `;
-
-// Add more styled components as needed

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Heading, Text } from './Contact.styles';
 
-import PageWrapper from '../../components/shared/PageWrapper';
+import {PageWrapper} from '../../components/shared/PageWrapper';
 
 const Contact = () => {
   return (

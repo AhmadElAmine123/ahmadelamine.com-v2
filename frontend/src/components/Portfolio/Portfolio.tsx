@@ -1,18 +1,53 @@
-import React from 'react';
-import { Container, Heading, Text } from './Portfolio.styles';
-
-import PageWrapper from '../../components/shared/PageWrapper';
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import {
+  Header,
+  Title,
+  Filter,
+  FilterButton,
+  PortfolioGrid,
+  ProjectCard,
+  CardImage,
+  CardTitle,
+  CardExcerpt,
+} from './Portfolio.styles';
 
 const Portfolio = () => {
+  const [filter, setFilter] = useState<string>('all');
+  const { t, i18n } = useTranslation();
+  let projects = t('projects', { returnObjects: true }) as Array<any>;
+  let projectTypes = t('projectTypes', { returnObjects: true }) as Array<any>;
+
+  const filteredProjects = () => {
+    if (filter === 'all') {
+      return projects;
+    }
+    return projects.filter((p) => p.projectType === filter);
+  };
+
   return (
-    <PageWrapper>
-      <Heading>Your Heading Here</Heading>
-      <Text>
-        Your text content goes here. You can use this component to display text
-        with the styles defined in the .styles.ts file.
-      </Text>
-      {/* Add more components and content as needed */}
-    </PageWrapper>
+    <>
+      <Header>
+        <Title>{t('portfolio.title')}</Title>
+      </Header>
+      <Filter>
+        <FilterButton onClick={() => setFilter('all')}>{t('allProjects')}</FilterButton>
+        {projectTypes.map((type: any, index: number) => (
+          <FilterButton key={index} onClick={() => setFilter(type.TypeName)}>
+            {type.TypeName}
+          </FilterButton>
+        ))}
+      </Filter>
+      <PortfolioGrid>
+        {filteredProjects().map((p: any, index: number) => (
+          <ProjectCard key={index}>
+            <CardImage src={p.featuredImageURL} alt={p.projectName} />
+            <CardTitle>{p.projectName}</CardTitle>
+            <CardExcerpt>{p.excerpt}</CardExcerpt>
+          </ProjectCard>
+        ))}
+      </PortfolioGrid>
+    </>
   );
 };
 

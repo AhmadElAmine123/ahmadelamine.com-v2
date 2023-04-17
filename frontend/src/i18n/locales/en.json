@@ -10,19 +10,100 @@
         "contact": "Contact Me"
       },
     "home": {
-      "welcome": "Welcome to my portfolio! I'm Ahmad, a passionate web developer and computer science graduate from U1 in Beirut. Explore my work and discover how I can help bring your projects to life."
+      "welcome": "Welcome to my portfolio! ",
+      "introduction": "I'm Ahmad, a passionate web developer and computer science graduate from the American University of Science and Technology in Beirut. Explore my work and discover how I can help bring your projects to life."
     },
     "about": {
-      "intro": "I'm a Lebanese computer science graduate from U1 in Beirut with a strong passion for web development. I completed my degree while working as a computer science teacher for kids. I have experience in various programming languages and have even had the opportunity to teach web development to over 200 people in Sierra Leone. Now based in Beirut, I'm looking to expand my horizons and find new opportunities abroad."
+      "title": "About Me",
+      "intro": "I'm a computer science graduate from the American University of Science and Technology in Beirut, Lebanon, where I completed my degree from 2018 to 2022. During my studies, I gained hands-on experience in web programming, mobile computing, and data science through various relevant courses.",
+      "experience":{
+        "geek":"Since July 2018, I've been working as an instructor at Geek Express, a coding academy for individuals aged 10 to 21, where I teach courses in Python, web development, data science, and machine learning. I've also organized and taught a coding bootcamp in Sierra Leone in collaboration with AfriCell.",
+        "linkit":"During my internship at LinkIt, I gained hands-on experience with various technologies such as Jaeger Tracing on Kubernetes, Elastic Search, and Docker. As a freelance web developer, I've successfully completed projects for clients, honing my skills in JavaScript, React, HTML, CSS, and other web development technologies."
+      },
+      "freelance":"I'm proficient in several programming languages and frameworks, and I'm fluent in English, French, and Arabic. My diverse experience allows me to adapt to the requirements of different projects and work effectively in various settings."
     },
     "skills": {
+      "title": "My Skills",
       "description": "I have a diverse set of skills in programming languages, web development, data science, machine learning, DevOps, and application development. While I have a strong foundation in many areas, I'm always eager to learn and grow. Check out my skills below:"
     },
     "portfolio": {
+      "title": "My Portfolio",
       "description": "Discover some of my best projects, showcasing my experience in web development, e-commerce, and more. Click on the images below to learn more about each project, including the technologies used and links to live demos or GitHub repositories."
     },
     "contact": {
+      "title": "Contact Me",
       "description": "Ready to work together or have any questions? Get in touch using the contact form below or connect with me on LinkedIn, GitHub, and other social media platforms."
-    }
+    },
+    "projects": [
+      {
+        "projectType": "Personal Projects",
+        "projectName": "toComfort",
+        "featuredImageURL": "https://your-image-host.com/path/to/ToComfortImages/HomePage.PNG",
+        "excerpt": "An E-commerce Website.",
+        "description": "This is an furniture store e-commerce website. It has all the basic features of an e-commerce website(filter, search, cart, accounts).",
+        "screenShotsURL": [
+          "https://your-image-host.com/path/to/ToComfortImages/HomePage.PNG",
+          "https://your-image-host.com/path/to/ToComfortImages/LogginIn.PNG",
+          "https://your-image-host.com/path/to/ToComfortImages/Shoping Page.PNG",
+          "https://your-image-host.com/path/to/ToComfortImages/ViewCart.PNG"
+        ],
+        "technologiesUsed": [
+          "ReactJS",
+          "NodeJS",
+          "Bootstrap",
+          "HTML",
+          "JavaScript",
+          "Json"
+        ]
+      },
+      {
+        "projectType": "Personal Projects",
+        "projectName": "Portfolio Website",
+        "featuredImageURL": "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+        "excerpt": "This is the current website you are on.",
+        "description": "This is the description where I add specific things related to the project",
+        "screenShotsURL": [
+          "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+          "https://your-image-host.com/path/to/PortfolioWebsite/Skills.PNG"
+        ],
+        "technologiesUsed": [
+          "ReactJS",
+          "NodeJS",
+          "Bootstrap",
+          "HTML",
+          "JavaScript",
+          "Json"
+        ]
+      },
+      {
+        "projectType": "Freelance Projects",
+        "projectName": "HKC Env",
+        "featuredImageURL": "https://your-image-host.com/path/to/HKC/Home.PNG",
+        "excerpt": "This is the current website you are on.",
+        "description": "This is the description where I add specific things related to the project",
+        "screenShotsURL": [
+          "https://your-image-host.com/path/to/HKC/ContactUs.PNG",
+          "https://your-image-host.com/path/to/HKC/Home.PNG",
+          "https://your-image-host.com/path/to/HKC/midHome.PNG"
+        ],
+        "technologiesUsed": [
+          "HTML",
+          "Css",
+          "PhP",
+          "JavaScript",
+          "Wordpress"
+        ]
+      }
+    ],
+    "projectTypes": [
+      {
+        "TypeName": "Personal Projects",
+        "TypeDescription": "This is a selection of some of the personal projects that I did to increase my skills and knowledge."
+      },
+      {
+        "TypeName": "Freelance Projects",
+        "TypeDescription": "These are some of the projects I did as a freelancer"
+      }
+    ]
   }
   

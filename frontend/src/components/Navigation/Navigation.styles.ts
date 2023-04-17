@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Navbar, Nav, Dropdown } from 'react-bootstrap';
+import { FaGlobe } from 'react-icons/fa';
 
 export const Container = styled.div`
   display: flex;
@@ -27,4 +28,33 @@ export const Text = styled.p`
 export const StyledNavbar = styled(Navbar)`
   /* Add your custom styles here */
   position:fixed;
+  background-color:#29A0B1;
+`;
+export const CollapseStyled = styled(Navbar.Collapse)`
+  text-align:center;
+`;
+export const BrandStyle = styled (Navbar.Brand)`
+  color:#DDFFE7;
+  &:hover {
+    color: #98D7C2;
+  }
+`;
+export const StyledLink = styled (Nav.Link )`
+  color:#DDFFE7;
+  &:hover {
+    color: #98D7C2;
+  }
+`;
+export const Globe = styled (FaGlobe )`
+  color:#DDFFE7;
+`;
+export const DropDownStyled = styled(Dropdown.Toggle )`
+border-width:0px;
+&:hover {
+  background-color: #98D7C2;
+}
+`;
+export const DropDownMenuStyled = styled(Dropdown.Menu)`
+  background-color:#167D7F;
+  color:#DDFFE7;
 `;
