@@ -6,7 +6,7 @@ const skillsData = [
         {
           name: "JavaScript",
           level: 4,
-          logo: "path/to/javascript-logo.png",
+          logo: require("../../assets/images/logos/programming_languages/javascript.png"),
         },
         {
           name: "Python",
@@ -99,21 +99,22 @@ const skillsData = [
       ],
     },
     {
-      category: "DataScience and Machine learning",
-      type: "circular",
-      skills: [
+      "category": "Data Science and Machine Learning",
+      "type": "circular",
+      "skills": [
         {
-            name: "Pandas",
-            level: 3,
-            logo: "path/to/pandas.png",
-          },
-          {
-            name: "Sklearn",
-            level: 1,
-            logo: "path/to/sklearn.png",
-          },
-      ],
-    },{
+          "name": "Pandas",
+          "level": 3.5,
+          "logo": "path/to/pandas.png"
+        },
+        {
+          "name": "Matplotlib",
+          "level": 3,
+          "logo": "path/to/matplotlib.png"
+        }
+      ]
+    }
+    ,{
         category: "Application Development",
         type: "circular",
         skills: [

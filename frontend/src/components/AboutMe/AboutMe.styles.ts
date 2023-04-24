@@ -37,7 +37,7 @@ export const ProfilePicture = styled.img`
   width: 300px;
   height: auto;
   object-fit: cover;
-  border-radius: 50%;
+  padding:0px 5px;
 `;
 
 export const SocialIcons = styled.div`

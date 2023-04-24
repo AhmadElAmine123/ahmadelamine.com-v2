@@ -11,24 +11,21 @@ import {
   SectionTitle,
   TextOnlyDesktop
 } from './AboutMe.styles';
+import Ahmad from '../../assets/images/ahmad.jpeg';
 import { useTranslation } from 'react-i18next';
 
-// Replace with the actual profile picture URL
-const profilePictureUrl = 'path/to/your/profile-picture.jpg';
 
 const AboutMe: React.FC = () => {
   const { t, i18n } = useTranslation();
   return (
     <AboutMeContainer>
       <LeftColumn>
-        <ProfilePicture src={profilePictureUrl} alt="Your Name" />
+        <ProfilePicture src={Ahmad} alt="Your Name" />
         <SocialIcons>
-          {/* Replace with your actual social media URLs */}
-          <SocialIcon href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            {/* Import and use the LinkedIn icon */}
+          <SocialIcon href="www.linkedin.com/in/ahmad-amine" target="_blank" rel="noopener noreferrer">
           </SocialIcon>
-          <SocialIcon href="https://github.com" target="_blank" rel="noopener noreferrer">
-            {/* Import and use the GitHub icon */}
+          <SocialIcon href="https://github.com/AhmadElAmine123" target="_blank" rel="noopener noreferrer">
+            
           </SocialIcon>
         </SocialIcons>
       </LeftColumn>

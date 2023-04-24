@@ -7,7 +7,8 @@
         "about": "About Me",
         "skills": "Skills",
         "portfolio": "Portfolio",
-        "contact": "Contact Me"
+        "contact": "Contact Me",
+        "downloadResume": "Download Resume"
       },
     "home": {
       "welcome": "Welcome to my portfolio! ",
@@ -20,11 +21,11 @@
         "geek":"Since July 2018, I've been working as an instructor at Geek Express, a coding academy for individuals aged 10 to 21, where I teach courses in Python, web development, data science, and machine learning. I've also organized and taught a coding bootcamp in Sierra Leone in collaboration with AfriCell.",
         "linkit":"During my internship at LinkIt, I gained hands-on experience with various technologies such as Jaeger Tracing on Kubernetes, Elastic Search, and Docker. As a freelance web developer, I've successfully completed projects for clients, honing my skills in JavaScript, React, HTML, CSS, and other web development technologies."
       },
-      "freelance":"I'm proficient in several programming languages and frameworks, and I'm fluent in English, French, and Arabic. My diverse experience allows me to adapt to the requirements of different projects and work effectively in various settings."
+      "freelance":"I'm fluent in English, French, and Arabic. My diverse experience allows me to adapt to the requirements of different projects and work effectively in various settings."
     },
     "skills": {
       "title": "My Skills",
-      "description": "I have a diverse set of skills in programming languages, web development, data science, machine learning, DevOps, and application development. While I have a strong foundation in many areas, I'm always eager to learn and grow. Check out my skills below:"
+      "description": "I have a diverse set of skills in programming languages, web development, data science, machine learning, DevOps, and application development. While I have a strong foundation in many areas, I'm always eager to learn and grow. Check out my skills below (ranked from 0 to 5):"
     },
     "portfolio": {
       "title": "My Portfolio",
@@ -32,13 +33,19 @@
     },
     "contact": {
       "title": "Contact Me",
-      "description": "Ready to work together or have any questions? Get in touch using the contact form below or connect with me on LinkedIn, GitHub, and other social media platforms."
+      "description": "Ready to work together or have any questions? Get in touch using the contact form below or connect with me on LinkedIn, GitHub, and other social media platforms.",
+      "name":"Name",
+      "email":"Email",
+      "subject":"Subject",
+      "message":"Message",
+      "submit":"Submit"
     },
     "projects": [
       {
         "projectType": "Personal Projects",
         "projectName": "toComfort",
-        "featuredImageURL": "https://your-image-host.com/path/to/ToComfortImages/HomePage.PNG",
+        "featuredImageURL": "ToComfortHome",
+        
         "excerpt": "An E-commerce Website.",
         "description": "This is an furniture store e-commerce website. It has all the basic features of an e-commerce website(filter, search, cart, accounts).",
         "screenShotsURL": [
@@ -58,8 +65,8 @@
       },
       {
         "projectType": "Personal Projects",
-        "projectName": "Portfolio Website",
-        "featuredImageURL": "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+        "projectName": "Portfolio Website 1",
+        "featuredImageURL": "Portfolio1Home",
         "excerpt": "This is the current website you are on.",
         "description": "This is the description where I add specific things related to the project",
         "screenShotsURL": [
@@ -78,7 +85,7 @@
       {
         "projectType": "Freelance Projects",
         "projectName": "HKC Env",
-        "featuredImageURL": "https://your-image-host.com/path/to/HKC/Home.PNG",
+        "featuredImageURL": "HKCHome",
         "excerpt": "This is the current website you are on.",
         "description": "This is the description where I add specific things related to the project",
         "screenShotsURL": [
@@ -93,6 +100,25 @@
           "JavaScript",
           "Wordpress"
         ]
+      },
+      {
+        "projectType": "Personal Projects",
+        "projectName": "Portfolio Website 2",
+        "featuredImageURL": "Portfolio2Home",
+        "excerpt": "This is the current website you are on.",
+        "description": "This is the description where I add specific things related to the project",
+        "screenShotsURL": [
+          "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+          "https://your-image-host.com/path/to/PortfolioWebsite/Skills.PNG"
+        ],
+        "technologiesUsed": [
+          "ReactJS",
+          "NodeJS",
+          "Bootstrap",
+          "HTML",
+          "JavaScript",
+          "Json"
+        ]
       }
     ],
     "projectTypes": [
@@ -105,5 +131,6 @@
         "TypeDescription": "These are some of the projects I did as a freelancer"
       }
     ]
+    
   }
   

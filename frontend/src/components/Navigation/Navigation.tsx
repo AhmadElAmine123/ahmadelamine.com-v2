@@ -3,8 +3,15 @@ import { Navbar, Nav, Dropdown } from 'react-bootstrap';
 import { FaGlobe } from 'react-icons/fa';
 import './Navbar.styles.ts';
 import { useTranslation } from 'react-i18next';
-import { StyledNavbar ,BrandStyle, StyledLink, Globe, DropDownStyled, DropDownMenuStyled, CollapseStyled} from './Navigation.styles';
-
+import { StyledNavbar ,
+  BrandStyle, 
+  StyledLink, 
+  Globe, 
+  DropDownStyled, 
+  DropDownMenuStyled, 
+  CollapseStyled,
+  DownloadButton} from './Navigation.styles';
+import resumePdf from '../../assets/AhmadElAmineResume.pdf';
 
 interface NavigationProps {
   scrollToRef: (ref: RefObject<HTMLDivElement>) => void;
@@ -74,8 +81,15 @@ const Navigation: React.FC<NavigationProps> = ({
             <Dropdown.Item onClick={() => changeLanguage('es')}>
               Español
             </Dropdown.Item>
+            <Dropdown.Item onClick={() => changeLanguage('ar')}>
+            عربي
+            </Dropdown.Item>
           </DropDownMenuStyled>
         </Dropdown>
+        <DownloadButton href={resumePdf} target="_blank" download>
+          {t('nav.downloadResume')}
+        </DownloadButton>
+
       </CollapseStyled>
     </StyledNavbar>
   );

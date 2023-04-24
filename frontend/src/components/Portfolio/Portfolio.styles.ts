@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  text-align: center;
-  background-color: #29A0B1;
-  color: #DDFFE7;
-  padding: 20px 0;
+font-size: 32px;
+font-weight: bold;
+color: #29A0B1;
+margin-bottom: 20px;
+margin-left:2vw;
 `;
 
 export const Title = styled.h1``;

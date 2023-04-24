@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Navbar, Nav, Dropdown } from 'react-bootstrap';
 import { FaGlobe } from 'react-icons/fa';
+import { Button } from 'react-bootstrap';
 
 export const Container = styled.div`
   display: flex;
@@ -57,4 +58,11 @@ border-width:0px;
 export const DropDownMenuStyled = styled(Dropdown.Menu)`
   background-color:#167D7F;
   color:#DDFFE7;
+`;
+export const DownloadButton = styled(Button)`
+  background-color: #29A0B1;
+  border: none;
+  &:hover {
+    background-color: #98D7C2;
+  }
 `;

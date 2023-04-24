@@ -32,3 +32,10 @@ export const ProgressBar = styled.div<{ progress: number; animate: boolean }>`
   background-color: ${tealGreen};
   transition: width ${({ animate }) => (animate ? '1.5s' : '0s')} ease;
 `;
+
+export const SkillLevel = styled.span`
+float:right;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
+`;

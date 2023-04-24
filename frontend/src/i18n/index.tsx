@@ -4,6 +4,7 @@ import en from './locales/en.json';
 import fr from './locales/fr.json';
 import es from './locales/es.json';
 import de from './locales/de.json';
+import ar from './locales/ar.json';
 
 i18n
   .use(initReactI18next)
@@ -13,6 +14,7 @@ i18n
       fr: { translation: fr },
       es: { translation: es },
       de: { translation: de },
+      ar: { translation: ar },
     },
     fallbackLng: 'en',
     interpolation: { escapeValue: false },

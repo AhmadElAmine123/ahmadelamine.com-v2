@@ -1,28 +1,135 @@
 {
-    "website": {
-      "title": "Ahmad Elamines Portfolio"
+  "website": {
+    "title": "Mein Portfolio"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Mich",
+    "skills": "Fähigkeiten",
+    "portfolio": "Portfolio",
+    "contact": "Kontaktiere Mich",
+    "downloadResume": "Lebenslauf herunterladen"
+  },
+  "home": {
+    "welcome": "Willkommen in meinem Portfolio!",
+    "introduction": "Ich bin Ahmad, ein leidenschaftlicher Webentwickler und Informatik-Absolvent der American University of Science and Technology in Beirut. Entdecken Sie meine Arbeiten und erfahren Sie, wie ich Ihnen bei der Umsetzung Ihrer Projekte helfen kann."
+  },
+  "about": {
+    "title": "Über Mich",
+    "intro": "Ich habe meinen Abschluss in Informatik an der American University of Science and Technology in Beirut, Libanon, zwischen 2018 und 2022 gemacht. Während meines Studiums sammelte ich praktische Erfahrungen in den Bereichen Webprogrammierung, Mobile Computing und Data Science durch verschiedene relevante Kurse.",
+    "experience": {
+      "geek": "Seit Juli 2018 arbeite ich als Lehrer bei Geek Express, einer Programmierakademie für Personen im Alter von 10 bis 21 Jahren, wo ich Kurse in Python, Webentwicklung, Data Science und maschinellem Lernen unterrichte. Ich habe auch in Zusammenarbeit mit AfriCell einen Programmier-Bootcamp in Sierra Leone organisiert und unterrichtet.",
+      "linkit": "Während meines Praktikums bei LinkIt konnte ich praktische Erfahrungen mit verschiedenen Technologien wie Jaeger Tracing auf Kubernetes, Elastic Search und Docker sammeln. Als freiberuflicher Webentwickler habe ich erfolgreich Projekte für Kunden abgeschlossen und meine Fähigkeiten in JavaScript, React, HTML, CSS und anderen Webentwicklungstechnologien verfeinert."
     },
-    "navigation": {
-      "home": "Startseite",
-      "about": "Über mich",
-      "skills": "Fähigkeiten",
-      "portfolio": "Portfolio",
-      "contact": "Kontaktieren Sie mich"
+    "freelance": "Ich beherrsche mehrere Programmiersprachen und Frameworks und spreche fließend Englisch, Französisch und Arabisch. Meine vielfältigen Erfahrungen ermöglichen es mir, mich den Anforderungen verschiedener Projekte anzupassen und in unterschiedlichen Umgebungen effektiv zu arbeiten."
+  },
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "description": "Ich verfüge über vielfältige Fähigkeiten in den Bereichen Programmiersprachen, Webentwicklung, Data Science, maschinelles Lernen, DevOps und Anwendungsentwicklung. Obwohl ich in vielen Bereichen ein solides Fundament habe, bin ich stets bestrebt, zu lernen und mich weiterzuentwickeln. Werfen Sie einen Blick auf meine Fähigkeiten unten (bewertet von 0 bis 5):"
+  },
+  "portfolio": {
+    "title": "Mein Portfolio",
+    "description": "Entdecken Sie einige meiner besten Projekte, die meine Erfahrungen in Webentwicklung, E-Commerce und mehr zeigen. Klicken Sie auf die Bilder unten, um mehr über jedes Projekt zu erfahren, einschließlich der verwendeten Technologien und Links zu Live-Demos oder GitHub-Repositories."
+  },
+  "contact": {
+    "title": "Kontaktiere Mich",
+    "description": "Bereit, zusammenzuarbeiten oder haben Sie Fragen? Nehmen Sie über das untenstehende Kontaktformular Kontakt mit mir auf oder vernetzen Sie sich mit mir auf LinkedIn, GitHub und anderen Social-Media-Plattformen.",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "submit": "Absenden"
+  },
+  "projects": [
+    {
+      "projectType": "Persönliche Projekte",
+      "projectName": "toComfort",
+      "featuredImageURL": "ToComfortHome",
+      "excerpt": "Eine E-Commerce-Website.",
+      "description": "Dies ist eine Möbelgeschäft E-Commerce-Website. Sie verfügt über alle grundlegenden Funktionen einer E-Commerce-Website (Filter, Suche, Warenkorb, Konten).",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/ToComfortImages/HomePage.PNG",
+        "https://your-image-host.com/path/to/ToComfortImages/LogginIn.PNG",
+        "https://your-image-host.com/path/to/ToComfortImages/Shoping Page.PNG",
+        "https://your-image-host.com/path/to/ToComfortImages/ViewCart.PNG"
+      ],
+      "technologiesUsed": [
+        "ReactJS",
+        "NodeJS",
+        "Bootstrap",
+        "HTML",
+        "JavaScript",
+        "Json"
+      ]
     },
-    "home": {
-      "welcome": "Willkommen in meinem Portfolio! Ich bin Ahmad, ein leidenschaftlicher Webentwickler und Informatik-Absolvent von der U1 in Beirut. Entdecken Sie meine Arbeit und erfahren Sie, wie ich Ihnen helfen kann, Ihre Projekte zum Leben zu erwecken."
+    {
+      "projectType": "Persönliche Projekte",
+      "projectName": "Portfolio Website 1",
+      "featuredImageURL": "Portfolio1Home",
+      "excerpt": "Dies ist die aktuelle Website, auf der Sie sich befinden.",
+      "description": "Dies ist die Beschreibung, in der ich spezifische Dinge zum Projekt hinzufüge",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+        "https://your-image-host.com/path/to/PortfolioWebsite/Skills.PNG"
+      ],
+      "technologiesUsed": [
+        "ReactJS",
+        "NodeJS",
+        "Bootstrap",
+        "HTML",
+        "JavaScript",
+        "Json"
+      ]
     },
-    "about": {
-      "intro": "Ich bin ein libanesischer Informatik-Absolvent der U1 in Beirut mit einer starken Leidenschaft für Webentwicklung. Ich habe meinen Abschluss gemacht, während ich als Informatiklehrer für Kinder gearbeitet habe. Ich habe Erfahrung in verschiedenen Programmiersprachen und hatte sogar die Gelegenheit, Webentwicklung für über 200 Menschen in Sierra Leone zu unterrichten. Jetzt in Beirut ansässig, möchte ich meinen Horizont erweitern und neue Möglichkeiten im Ausland finden."
+    {
+      "projectType": "Freelance-Projekte",
+      "projectName": "HKC Env",
+      "featuredImageURL": "HKCHome",
+      "excerpt": "Dies ist die aktuelle Website, auf der Sie sich befinden.",
+      "description": "Dies ist die Beschreibung, in der ich spezifische Dinge zum Projekt hinzufüge",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/HKC/ContactUs.PNG",
+        "https://your-image-host.com/path/to/HKC/Home.PNG",
+        "https://your-image-host.com/path/to/HKC/midHome.PNG"
+      ],
+      "technologiesUsed": [
+        "HTML",
+        "Css",
+        "PhP",
+        "JavaScript",
+        "Wordpress"
+      ]
     },
-    "skills": {
-      "description": "Ich verfüge über ein vielfältiges Fähigkeitsspektrum in Programmiersprachen, Webentwicklung, Data Science, maschinellem Lernen, DevOps und Anwendungsentwicklung. Obwohl ich in vielen Bereichen eine solide Grundlage habe, bin ich immer bestrebt, zu lernen und zu wachsen. Sehen Sie sich meine Fähigkeiten unten an:"
-    },
-    "portfolio": {
-      "description": "Entdecken Sie einige meiner besten Projekte, die meine Erfahrung in Webentwicklung, E-Commerce und mehr zeigen. Klicken Sie auf die Bilder unten, um mehr über jedes Projekt zu erfahren, einschließlich der verwendeten Technologien und Links zu Live-Demos oder GitHub-Repositories."
-    },
-    "contact": {
-      "description": "Bereit, zusammenzuarbeiten oder Fragen zu stellen? Nehmen Sie Kontakt auf, indem Sie das Kontaktformular unten verwenden oder sich mit mir auf LinkedIn, GitHub und anderen sozialen Medien vernetzen."
+    {
+      "projectType": "Persönliche Projekte",
+      "projectName": "Portfolio Website 2",
+      "featuredImageURL": "Portfolio2Home",
+      "excerpt": "Dies ist die aktuelle Website, auf der Sie sich befinden.",
+      "description": "Dies ist die Beschreibung, in der ich spezifische Dinge zum Projekt hinzufüge",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+        "https://your-image-host.com/path/to/PortfolioWebsite/Skills.PNG"
+      ],
+      "technologiesUsed": [
+        "ReactJS",
+        "NodeJS",
+        "Bootstrap",
+        "HTML",
+        "JavaScript",
+        "Json"
+      ]
     }
-  }
-  
+  ],
+  "projectTypes": [
+    {
+      "TypeName": "Persönliche Projekte",
+      "TypeDescription": "Dies ist eine Auswahl einiger persönlicher Projekte, die ich durchgeführt habe, um meine Fähigkeiten und Kenntnisse zu erweitern."
+    },
+    {
+      "TypeName": "Freelance-Projekte",
+      "TypeDescription": "Dies sind einige der Projekte, die ich als Freiberufler durchgeführt habe"
+    }
+  ]
+}
+
+

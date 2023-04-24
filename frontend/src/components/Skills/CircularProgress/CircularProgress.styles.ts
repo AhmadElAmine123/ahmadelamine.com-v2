@@ -39,3 +39,12 @@ export const SkillLevel = styled.div`
 export const StyledSVG = styled.svg`
 transform: rotate(270deg);
 `;
+export const SkillLogo = styled.img`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px; // Adjust this value to control the size of the image
+  height: auto;
+`;
+

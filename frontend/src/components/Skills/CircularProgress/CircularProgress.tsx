@@ -7,13 +7,14 @@ import {
   CircleProgress,
   SkillName,
   SkillLevel,
-  StyledSVG
+  StyledSVG,
+  SkillLogo
 } from "./CircularProgress.styles";
 
 interface Skill {
   name: string;
   level: number;
-  logo: string;
+  logo: any;
 }
 
 interface CircularProgressProps {

@@ -1,0 +1,123 @@
+{
+    "website": {
+      "title": "ملفي الشخصي"
+    },
+    "nav": {
+      "home": "الرئيسية",
+      "about": "عني",
+      "skills": "المهارات",
+      "portfolio": "ملف الأعمال",
+      "contact": "اتصل بي",
+      "downloadResume": "تحميل السيرة الذاتية"
+    },
+    "home": {
+      "welcome": "مرحبًا بك في ملفي الشخصي!",
+      "introduction": "أنا أحمد، مطور ويب متحمس وخريج علوم الحاسوب من الجامعة الأمريكية للعلوم والتكنولوجيا في بيروت. استكشف أعمالي واكتشف كيف يمكنني المساعدة في تحويل مشاريعك إلى واقع."
+    },
+    "about": {
+      "title": "عني",
+      "intro": "أنا خريج علوم الحاسوب من الجامعة الأمريكية للعلوم والتكنولوجيا في بيروت، لبنان، حيث أكملت دراستي من 2018 إلى 2022. خلال دراستي، اكتسبت خبرة عملية في برمجة الويب والحوسبة المتنقلة وعلوم البيانات من خلال مجموعة من الدورات ذات الصلة.",
+      "experience": {
+        "geek": "منذ يوليو 2018، عملت كمدرس في جيك إكسبرس، أكاديمية تعليم البرمجة للأفراد الذين تتراوح أعمارهم بين 10 و21 عامًا، حيث أدرس دورات في بايثون وتطوير الويب وعلوم البيانات والتعلم الآلي. نظمت أيضًا وقدمت برنامج تدريبي مكثف في سيراليون بالتعاون مع أفريسل.",
+        "linkit": "خلال تدريبي في شركة LinkIt،  اكتسبت خبرة عملية مع مجموعة متنوعة من التقنيات مثل تتبع جيجر على كوبرنيتس والبحث المرن ودوكر. كمطور ويب مستقل، أكملت بنجاح مشاريع للعملاء، مع تحسين مهاراتي في جافascript، React، HTML، CSS وتقنيات تطوير الويب الأخرى."
+    },
+    "freelance": "أنا بارع في عدة لغات برمجة وإطارات عمل، وأتقن الإنجليزية والفرنسية والعربية. تتيح لي خبرتي المتنوعة التكيف مع متطلبات المشاريع المختلفة والعمل بفعالية في مختلف الإعدادات."
+  },
+  "skills": {
+    "title": "مهاراتي",
+    "description": "لدي مجموعة متنوعة من المهارات في لغات البرمجة وتطوير الويب وعلوم البيانات والتعلم الآلي وتطوير التطبيقات وأعمال DevOps. بينما لدي أساس قوي في العديد من المجالات، أنا دائمًا متحمس للتعلم والنمو. تحقق من مهاراتي أدناه (مرتبة من 0 إلى 5):"
+  },
+  "portfolio": {
+    "title": "ملف الأعمال",
+    "description": "اكتشف بعض أفضل مشاريعي، حيث يظهر خبرتي في تطوير الويب والتجارة الإلكترونية وغيرها. انقر على الصور أدناه لمعرفة المزيد عن كل مشروع، بما في ذلك التقنيات المستخدمة وروابط لعروض توضيحية حية أو مستودعات GitHub."
+  },
+  "contact": {
+    "title": "اتصل بي",
+    "description": "هل أنت مستعد للعمل معًا أو لديك أي أسئلة؟ تواصل معي باستخدام نموذج الاتصال أدناه أو تواصل معي على LinkedIn و GitHub ومنصات التواصل الاجتماعي الأخرى.",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "submit": "إرسال"
+  },
+  "projects": [
+    {
+      "projectType": "المشاريع الشخصية",
+      "projectName": "toComfort",
+      "featuredImageURL": "ToComfortHome",
+      "excerpt": "موقع تجارة إلكترونية",
+      "description": "هذا موقع تجارة إلكترونية لمتجر أثاث. يتضمن جميع الميزات الأساسية لموقع التجارة الإلكترونية (التصفية، البحث، العربة، الحسابات).",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/ToComfortImages/HomePage.PNG",
+        "https://your-image-host.com/path/to/ToComfortImages/LogginIn.PNG",
+        "https://your-image-host.com/path/to/ToComfortImages/Shoping Page.PNG",
+        "https://your-image-host.com/path/to/ToComfortImages/ViewCart.PNG"
+      ],
+      "technologiesUsed": [
+        "ReactJS",
+        "NodeJS",
+        "Bootstrap",
+        "HTML",
+        "JavaScript",
+        "Json"
+      ]
+    },
+    {
+      "projectType": "المشاريع الشخصية",
+      "projectName": "Portfolio Website 1",
+      "featuredImageURL": "Portfolio1Home",
+      "excerpt": "هذا هو الموقع الحالي الذي تتصفحه.",
+      "description": "هذا هو الوصف الذي أضيف فيه أشياء محددة تتعلق بالمشروع",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/PortfolioWebsite/HomePage.PNG",
+        "https://your-image-host.com/path/to/PortfolioWebsite/Skills.PNG"
+      ],
+      "technologiesUsed": [
+        "ReactJS",
+        "NodeJS",
+        "Bootstrap",
+        "HTML",
+        "JavaScript",
+        "Json"
+      ]
+    },
+    {
+      "projectType": "مشاريع حرة",
+      "projectName": "HKC Env",
+      "featuredImageURL": "HKCHome",
+      "excerpt": "هذا هو الموقع الحالي الذي تتصفحه.",
+      "description": "هذا هو الوصف الذي أضيف فيه أشياء محددة تتعلق بالمشروع",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/HKC/ContactUs.PNG",
+        "https://your-image-host.com/path/to/HKC/Home.PNG",
+        "https://your-image-host.com/path/to/HKC/midHome.PNG"
+      ],
+      "technologiesUsed": [
+        "HTML",
+        "Css",
+        "PhP",
+        "JavaScript",
+        "Wordpress"
+      ]
+    },
+    {
+      "projectType": "المشاريع الشخصية",
+      "projectName": "Portfolio Website 2",
+      "featuredImageURL": "Portfolio2Home",
+      "excerpt": "هذا هو الموقع الحالي الذي تتصفحه.",
+      "description": "هذا هو الوصف الذي أضيف فيه أشياء محددة تتعلق بالمشروع",
+      "screenShotsURL": [
+        "https://your-image-host.com/path/to/PortfolioWebsite2/HomePage.PNG",
+        "https://your-image-host.com/path/to/PortfolioWebsite2/About.PNG"
+      ],
+      "technologiesUsed": [
+        "ReactJS",
+        "NodeJS",
+        "Bootstrap",
+        "HTML",
+        "JavaScript",
+        "Json"
+      ]
+    }
+  ]
+}

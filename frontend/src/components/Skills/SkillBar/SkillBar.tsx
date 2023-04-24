@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Container, SkillName, ProgressBarContainer, ProgressBar } from './SkillBar.styles';
+import { Container,
+  SkillName,
+  ProgressBarContainer,
+  ProgressBar,
+  SkillLevel } from './SkillBar.styles';
 
 interface Skill {
   name: string;
@@ -23,7 +27,8 @@ const SkillBar: React.FC<SkillBarProps> = ({ skill, animate }) => {
 
   return (
     <Container>
-      <SkillName>{skill.name}</SkillName>
+      <SkillName>{skill.name} <SkillLevel>Level: {skill.level}</SkillLevel></SkillName>
+      
       <ProgressBarContainer>
         <ProgressBar progress={progress} animate={animate} />
       </ProgressBarContainer>
